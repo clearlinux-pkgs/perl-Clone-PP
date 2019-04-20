@@ -4,10 +4,10 @@
 #
 Name     : perl-Clone-PP
 Version  : 1.07
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/N/NE/NEILB/Clone-PP-1.07.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/N/NE/NEILB/Clone-PP-1.07.tar.gz
-Summary  : unknown
+Summary  : Clone::PP - Recursively copy Perl datatypes
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -25,6 +25,7 @@ $copy = clone( $item );
 Summary: dev components for the perl-Clone-PP package.
 Group: Development
 Provides: perl-Clone-PP-devel = %{version}-%{release}
+Requires: perl-Clone-PP = %{version}-%{release}
 
 %description dev
 dev components for the perl-Clone-PP package.
