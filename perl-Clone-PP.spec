@@ -4,7 +4,7 @@
 #
 Name     : perl-Clone-PP
 Version  : 1.08
-Release  : 22
+Release  : 23
 URL      : https://cpan.metacpan.org/authors/id/N/NE/NEILB/Clone-PP-1.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/N/NE/NEILB/Clone-PP-1.08.tar.gz
 Summary  : unknown
