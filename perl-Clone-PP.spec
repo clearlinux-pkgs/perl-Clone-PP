@@ -4,7 +4,7 @@
 #
 Name     : perl-Clone-PP
 Version  : 1.08
-Release  : 23
+Release  : 24
 URL      : https://cpan.metacpan.org/authors/id/N/NE/NEILB/Clone-PP-1.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/N/NE/NEILB/Clone-PP-1.08.tar.gz
 Summary  : unknown
@@ -86,4 +86,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Clone/PP.pm
+/usr/lib/perl5/*
